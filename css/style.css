@@ -1,0 +1,73 @@
+body {
+	background-image: url(../assets/bckgrd_img2.jpg);
+	max-width: 100%;
+	height: auto;
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: -1;
+	overflow: hidden;
+}
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 8vh;
+	background-color: #d17804;
+	font-family: 'Cinzel', serif;
+}
+.logo {
+	color: white;
+	letter-spacing: 5px;
+	font-size: 20px;
+}
+h1 {
+	font-family: 'Cinzel', serif;
+	color: white;
+	letter-spacing: 5px;
+	margin-left: 300px;
+	padding-top: 60px;
+	font-weight: 150;
+}
+.nav-links {
+	display: flex;
+	justify-content: space-around;
+	width: 40%;
+	color: white;
+	text-decoration: none;
+	letter-spacing: 3px;
+	font-weight: bold;
+	font-size: 14px;
+	list-style: none;
+}
+.burger {
+	display: none;
+}
+.burger div {
+	width: 25px;
+	height: 3px;
+	background-color: white;
+	margin: 5px;
+}
+@media screen and (max-width: 1024px) {
+	.nav-links {
+		width: 60%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.nav-links {
+		position: absolute;
+		right: 0px;
+		height: 92vh;
+		top: 8vh;
+		background-color: #d17804;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
