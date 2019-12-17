@@ -8,15 +8,6 @@ body {
 	overflow: hidden;
 }
 
-/* h1 {
-	font-family: 'Cinzel', serif;
-	color: #fff6e1;
-	letter-spacing: 5px;
-	margin-left: 300px;
-	padding-top: 60px;
-	font-weight: 150;
-} */
-
 .navbar-inverse {
 	background-color: #d17804;
 	font-family: 'Cinzel', serif;
@@ -26,6 +17,7 @@ body {
 	color: #fff6e1;
 	letter-spacing: 5px;
 }
+
 .navbar-inverse .navbar-brand {
 	color: #fff6e1;
 	letter-spacing: 3px;
@@ -38,7 +30,6 @@ body {
 	color: #fff6e1;
 	letter-spacing: 10px;
 	margin-left: 20%;
-
 	padding-top: 90px;
 }
 
@@ -50,21 +41,26 @@ body {
 	margin-bottom: 0px;
 	padding-top: 360px;
 }
+
 .social-med:hover {
 	color: #fff6e1;
 }
+
 .fab:hover {
 	color: #fff6e1;
 }
+
 .fab {
 	color: #836e4f;
 }
+
 @media screen and (max-width: 320px) {
 	h1 {
 		font-size: 80%;
 		float: right;
 	}
 }
+
 @media screen and (max-width: 768px) {
 	h1 {
 		font-size: 120%;
