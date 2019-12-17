@@ -7,7 +7,7 @@ body {
 	z-index: -1;
 	overflow: hidden;
 }
-* {
+/* * {
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
@@ -89,7 +89,7 @@ h1 {
 
 .nav-active {
 	transform: translateX(0%);
-}
+} */
 
 .toggle.line1 {
 	transform: rotate(-45deg) translate(-5px, 6px);
