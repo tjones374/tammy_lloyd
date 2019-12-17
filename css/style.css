@@ -33,10 +33,41 @@ body {
 	font-weight: 900;
 }
 
-h1 {
+.header {
 	font-family: 'Cinzel', serif;
 	color: #fff6e1;
 	letter-spacing: 10px;
-	margin-left: 220px;
+	margin-left: 20%;
+
 	padding-top: 90px;
+}
+
+.social-med {
+	position: relative;
+	left: 40%;
+	color: #836e4f;
+	font-size: 35px;
+	margin-bottom: 0px;
+	padding-top: 360px;
+}
+.social-med:hover {
+	color: #fff6e1;
+}
+.fab:hover {
+	color: #fff6e1;
+}
+.fab {
+	color: #836e4f;
+}
+@media screen and (max-width: 320px) {
+	h1 {
+		font-size: 80%;
+		float: right;
+	}
+}
+@media screen and (max-width: 768px) {
+	h1 {
+		font-size: 120%;
+		float: right;
+	}
 }
