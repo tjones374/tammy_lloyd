@@ -4,8 +4,8 @@ body {
 	height: auto;
 	background-repeat: no-repeat;
 	background-size: cover;
-	z-index: -1;
 	overflow: hidden;
+	min-height: 100vh;
 }
 
 .navbar-inverse {
@@ -54,7 +54,7 @@ body {
 	color: #836e4f;
 }
 
-@media screen and (max-width: 320px) {
+/* @media screen and (max-width: 320px) {
 	h1 {
 		font-size: 80%;
 		float: right;
@@ -66,4 +66,4 @@ body {
 		font-size: 120%;
 		float: right;
 	}
-}
+} */
